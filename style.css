@@ -93,3 +93,13 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  .container-fluid {
+    text-align: center;
+  }
+  .primary-link {
+    display: block;
+    padding: 25px 20px;
+  }
+}
